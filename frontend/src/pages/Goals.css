@@ -1,0 +1,93 @@
+/* Goals.css */
+.goals-page {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.goal-form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+}
+
+.add-goal-btn {
+    transition: all 0.3s ease;
+}
+
+.add-goal-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.goal-card {
+    transition: all 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.goal-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.goal-text {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    word-break: break-word;
+}
+
+.goal-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.goal-actions button {
+    flex: 1;
+    margin: 0 5px;
+}
+
+.animated-alert {
+    animation: fadeIn 0.5s, fadeOut 0.5s 2.5s forwards;
+}
+
+.empty-state {
+    padding: 40px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+/* Media queries for better responsiveness */
+@media (max-width: 767px) {
+    .goal-actions {
+        flex-direction: column;
+    }
+    
+    .goal-actions button {
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .goals-page {
+        padding: 10px;
+    }
+    
+    .goal-form {
+        padding: 15px;
+    }
+}

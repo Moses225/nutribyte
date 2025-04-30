@@ -1,0 +1,200 @@
+[
+    {
+        "fdcId": 1106281,
+        "attributeId": 1000565,
+        "name": "Nutrient Updated",
+        "value": "4"
+    },
+    {
+        "fdcId": 1106281,
+        "attributeId": 1000566,
+        "name": "Nutrient Added",
+        "value": "5"
+    },
+    {
+        "fdcId": 1106304,
+        "attributeId": 1000607,
+        "name": "Nutrient Updated",
+        "value": "4"
+    },
+    {
+        "fdcId": 1106304,
+        "attributeId": 1000608,
+        "name": "Nutrient Added",
+        "value": "5"
+    },
+    {
+        "fdcId": 1106312,
+        "attributeId": 1000623,
+        "name": "Nutrient Added",
+        "value": "5"
+    },
+    {
+        "fdcId": 1106312,
+        "attributeId": 1000624,
+        "name": "Nutrient Updated",
+        "value": "4"
+    },
+    {
+        "fdcId": 1106456,
+        "attributeId": 1000921,
+        "name": "Nutrient Added",
+        "value": "5"
+    },
+    {
+        "fdcId": 1106456,
+        "attributeId": 1000922,
+        "name": "Nutrient Updated",
+        "value": "4"
+    },
+    {
+        "fdcId": 1106457,
+        "attributeId": 1000924,
+        "name": "Nutrient Added",
+        "value": "5"
+    },
+    {
+        "fdcId": 1106457,
+        "attributeId": 1000923,
+        "name": "Nutrient Updated",
+        "value": "4"
+    },
+    {
+        "fdcId": 1106573,
+        "attributeId": 1001177,
+        "name": "Nutrient Added",
+        "value": "5"
+    },
+    {
+        "fdcId": 1106573,
+        "attributeId": 1001178,
+        "name": "Nutrient Updated",
+        "value": "4"
+    },
+    {
+        "fdcId": 1106608,
+        "attributeId": 1001254,
+        "name": "Nutrient Added",
+        "value": "5"
+    },
+    {
+        "fdcId": 1106608,
+        "attributeId": 1001255,
+        "name": "Nutrient Updated",
+        "value": "4"
+    },
+    {
+        "fdcId": 1106628,
+        "attributeId": 1001314,
+        "name": "Nutrient Added",
+        "value": "5"
+    },
+    {
+        "fdcId": 1106628,
+        "attributeId": 1001313,
+        "name": "Nutrient Updated",
+        "value": "4"
+    },
+    {
+        "fdcId": 1106864,
+        "attributeId": 1001806,
+        "name": "Nutrient Added",
+        "value": "5"
+    },
+    {
+        "fdcId": 1106864,
+        "attributeId": 1001807,
+        "name": "Nutrient Updated",
+        "value": "4"
+    },
+    {
+        "fdcId": 1106915,
+        "attributeId": 1001914,
+        "name": "Description",
+        "value": "2"
+    },
+    {
+        "fdcId": 1106945,
+        "attributeId": 1001978,
+        "name": "Nutrient Added",
+        "value": "5"
+    },
+    {
+        "fdcId": 1106945,
+        "attributeId": 1001979,
+        "name": "Nutrient Updated",
+        "value": "4"
+    },
+    {
+        "fdcId": 1107032,
+        "attributeId": 1002151,
+        "name": "Nutrient Updated",
+        "value": "4"
+    },
+    {
+        "fdcId": 1107032,
+        "attributeId": 1002150,
+        "name": "Nutrient Added",
+        "value": "5"
+    },
+    {
+        "fdcId": 1107072,
+        "attributeId": 1002223,
+        "name": "Description",
+        "value": "2"
+    },
+    {
+        "fdcId": 1107095,
+        "attributeId": 1002269,
+        "name": "Nutrient Updated",
+        "value": "4"
+    },
+    {
+        "fdcId": 1107095,
+        "attributeId": 1002270,
+        "name": "Nutrient Added",
+        "value": "5"
+    },
+    {
+        "fdcId": 1107130,
+        "attributeId": 1002334,
+        "name": "Nutrient Updated",
+        "value": "4"
+    },
+    {
+        "fdcId": 1107130,
+        "attributeId": 1002333,
+        "name": "Nutrient Added",
+        "value": "5"
+    },
+    {
+        "fdcId": 1107331,
+        "attributeId": 1002753,
+        "name": "Description",
+        "value": "2"
+    },
+    {
+        "fdcId": 1107331,
+        "attributeId": 1002752,
+        "name": "Food Category",
+        "value": "1"
+    },
+    {
+        "fdcId": 1107331,
+        "attributeId": 1002751,
+        "name": "Nutrient Updated",
+        "value": "4"
+    },
+    {
+        "fdcId": 1107331,
+        "attributeId": 1002750,
+        "name": "Ingredients",
+        "value": "3"
+    },
+    {
+        "fdcId": 1107686,
+        "attributeId": 1003665,
+        "name": "Nutrient Added",
+        "value": "5"
+    }
+]

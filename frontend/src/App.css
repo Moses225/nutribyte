@@ -1,0 +1,10 @@
+.auth-background {
+    background: url('https://images.unsplash.com/photo-1606228434977-b4efcb4d297f?crop=entropy&cs=tinysrgb&fit=crop&h=800&q=80&w=1200') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.auth-background .card {
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.9);
+}

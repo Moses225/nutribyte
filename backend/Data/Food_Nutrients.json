@@ -1,0 +1,202 @@
+[
+    {
+        "fdcId": 1106281,
+        "nutrientId": 1003,
+        "nutrientName": "Protein",
+        "nutrientNumber": "203",
+        "nutrientUnit": "g",
+        "amount": 10.7
+    },
+    {
+        "fdcId": 1106281,
+        "nutrientId": 1004,
+        "nutrientName": "Total lipid (fat)",
+        "nutrientNumber": "204",
+        "nutrientUnit": "g",
+        "amount": 25
+    },
+    {
+        "fdcId": 1106281,
+        "nutrientId": 1005,
+        "nutrientName": "Carbohydrate, by difference",
+        "nutrientNumber": "205",
+        "nutrientUnit": "g",
+        "amount": 57.1
+    },
+    {
+        "fdcId": 1106281,
+        "nutrientId": 1008,
+        "nutrientName": "Energy",
+        "nutrientNumber": "208",
+        "nutrientUnit": "kcal",
+        "amount": 500
+    },
+    {
+        "fdcId": 1106281,
+        "nutrientId": 2000,
+        "nutrientName": "Total Sugars",
+        "nutrientNumber": "269",
+        "nutrientUnit": "g",
+        "amount": 21.4
+    },
+    {
+        "fdcId": 1106281,
+        "nutrientId": 1079,
+        "nutrientName": "Fiber, total dietary",
+        "nutrientNumber": "291",
+        "nutrientUnit": "g",
+        "amount": 7.1
+    },
+    {
+        "fdcId": 1106281,
+        "nutrientId": 1087,
+        "nutrientName": "Calcium, Ca",
+        "nutrientNumber": "301",
+        "nutrientUnit": "mg",
+        "amount": 71
+    },
+    {
+        "fdcId": 1106281,
+        "nutrientId": 1089,
+        "nutrientName": "Iron, Fe",
+        "nutrientNumber": "303",
+        "nutrientUnit": "mg",
+        "amount": 3.86
+    },
+    {
+        "fdcId": 1106281,
+        "nutrientId": 1093,
+        "nutrientName": "Sodium, Na",
+        "nutrientNumber": "307",
+        "nutrientUnit": "mg",
+        "amount": 161
+    },
+    {
+        "fdcId": 1106281,
+        "nutrientId": 1104,
+        "nutrientName": "Vitamin A, IU",
+        "nutrientNumber": "318",
+        "nutrientUnit": "IU",
+        "amount": 0
+    },
+    {
+        "fdcId": 1106281,
+        "nutrientId": 1162,
+        "nutrientName": "Vitamin C, total ascorbic acid",
+        "nutrientNumber": "401",
+        "nutrientUnit": "mg",
+        "amount": 0
+    },
+    {
+        "fdcId": 1106281,
+        "nutrientId": 1253,
+        "nutrientName": "Cholesterol",
+        "nutrientNumber": "601",
+        "nutrientUnit": "mg",
+        "amount": 0
+    },
+    {
+        "fdcId": 1106281,
+        "nutrientId": 1257,
+        "nutrientName": "Fatty acids, total trans",
+        "nutrientNumber": "605",
+        "nutrientUnit": "g",
+        "amount": 0
+    },
+    {
+        "fdcId": 1106281,
+        "nutrientId": 1258,
+        "nutrientName": "Fatty acids, total saturated",
+        "nutrientNumber": "606",
+        "nutrientUnit": "g",
+        "amount": 7.14
+    },
+    {
+        "fdcId": 1106304,
+        "nutrientId": 1003,
+        "nutrientName": "Protein",
+        "nutrientNumber": "203",
+        "nutrientUnit": "g",
+        "amount": 8.89
+    },
+    {
+        "fdcId": 1106304,
+        "nutrientId": 1004,
+        "nutrientName": "Total lipid (fat)",
+        "nutrientNumber": "204",
+        "nutrientUnit": "g",
+        "amount": 0
+    },
+    {
+        "fdcId": 1106304,
+        "nutrientId": 1005,
+        "nutrientName": "Carbohydrate, by difference",
+        "nutrientNumber": "205",
+        "nutrientUnit": "g",
+        "amount": 80
+    },
+    {
+        "fdcId": 1106304,
+        "nutrientId": 1008,
+        "nutrientName": "Energy",
+        "nutrientNumber": "208",
+        "nutrientUnit": "kcal",
+        "amount": 356
+    },
+    {
+        "fdcId": 1106304,
+        "nutrientId": 2000,
+        "nutrientName": "Total Sugars",
+        "nutrientNumber": "269",
+        "nutrientUnit": "g",
+        "amount": 4.44
+    },
+    {
+        "fdcId": 1106304,
+        "nutrientId": 1079,
+        "nutrientName": "Fiber, total dietary",
+        "nutrientNumber": "291",
+        "nutrientUnit": "g",
+        "amount": 4.4
+    },
+    {
+        "fdcId": 1106304,
+        "nutrientId": 1087,
+        "nutrientName": "Calcium, Ca",
+        "nutrientNumber": "301",
+        "nutrientUnit": "mg",
+        "amount": 0
+    },
+    {
+        "fdcId": 1106304,
+        "nutrientId": 1089,
+        "nutrientName": "Iron, Fe",
+        "nutrientNumber": "303",
+        "nutrientUnit": "mg",
+        "amount": 0.8
+    },
+    {
+        "fdcId": 1106304,
+        "nutrientId": 1093,
+        "nutrientName": "Sodium, Na",
+        "nutrientNumber": "307",
+        "nutrientUnit": "mg",
+        "amount": 0
+    },
+    {
+        "fdcId": 1106304,
+        "nutrientId": 1104,
+        "nutrientName": "Vitamin A, IU",
+        "nutrientNumber": "318",
+        "nutrientUnit": "IU",
+        "amount": 0
+    },
+    {
+        "fdcId": 1106304,
+        "nutrientId": 1162,
+        "nutrientName": "Vitamin C, total ascorbic acid",
+        "nutrientNumber": "401",
+        "nutrientUnit": "mg",
+        "amount": 0
+    }
+]

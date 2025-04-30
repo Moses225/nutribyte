@@ -1,0 +1,72 @@
+.foodlog-page {
+    min-height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  .food-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .add-food-btn {
+    height: 100%;
+    transition: all 0.2s;
+  }
+  
+  .add-food-btn:hover {
+    transform: translateY(-2px);
+  }
+  
+  .food-card {
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border: none;
+  }
+  
+  .food-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .calories-badge {
+    background-color: #e9f5ff;
+    color: #0d6efd;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  
+  .animated-alert {
+    animation: fadeInOut 3s ease-in-out;
+  }
+  
+  .total-calories {
+    background-color: #f8f9fa;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: #212529;
+  }
+  
+  .empty-state {
+    padding: 40px 0;
+  }
+  
+  @keyframes fadeInOut {
+    0% { opacity: 0; }
+    10% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+  @media (max-width: 768px) {
+    .food-form {
+      padding: 15px;
+    }
+    
+    .add-food-btn {
+      margin-top: 5px;
+    }
+  }
