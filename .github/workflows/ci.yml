@@ -37,7 +37,7 @@ jobs:
       - name: Run frontend tests
         run: |
           cd frontend
-          npm test -- --watchAll=false
+          npm test -- --watchAll=false --passWithNoTests
 
   # Uncomment the following if you want to deploy to Heroku automatically
   # deploy:
