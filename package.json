@@ -7,6 +7,23 @@
     "start": "node backend/server.js",
     "heroku-postbuild": "cd frontend && npm install && npm run build"
   },
+  "engines": {
+    "node": "18.x",
+    "npm": "9.x"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Moses225/nutribyte.git"
@@ -18,10 +35,7 @@
   "bugs": {
     "url": "https://github.com/Moses225/nutribyte/issues"
   },
-  "homepage": "https://github.com/Moses225/nutribyte#readme",
-  "engines": {
-    "node": "18.x",
-    "npm": "9.x"
-  }
+  "homepage": "https://github.com/Moses225/nutribyte#readme"
 }
+
 
