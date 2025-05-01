@@ -1,53 +1,41 @@
 {
-        "name": "nutribyte-frontend",
-        "version": "1.0.0",
-        "description": "Frontend client for NutriByte application",
-        "private": true,
-        "proxy": "http://localhost:5000",
-        "dependencies": {
-                "@testing-library/jest-dom": "^5.16.5",
-                "@testing-library/react": "^13.4.0",
-                "@testing-library/user-event": "^13.5.0",
-                "axios": "^1.3.4",
-                "bootstrap": "^5.3.5",
-                "react": "^18.2.0",
-                "react-bootstrap": "^2.10.9",
-                "react-dom": "^18.2.0",
-                "react-router-dom": "^6.14.1",
-                "react-scripts": "^5.0.1",
-                "recharts": "^2.15.3",
-                "web-vitals": "^2.1.4"
-        },
-        "scripts": {
-                "start": "react-scripts start",
-                "build": "react-scripts build",
-                "test": "react-scripts test",
-                "eject": "react-scripts eject"
-        },
-        "eslintConfig": {
-                "extends": [
-                        "react-app",
-                        "react-app/jest"
-                ]
-        },
-        "browserslist": {
-                "production": [
-                        ">0.2%",
-                        "not dead",
-                        "not op_mini all"
-                ],
-                "development": [
-                        "last 1 chrome version",
-                        "last 1 firefox version",
-                        "last 1 safari version"
-                ]
-        },
-        "keywords": [],
-        "author": "Your Name",
-        "license": "ISC",
-        "devDependencies": {
-                "autoprefixer": "^10.4.21",
-                "postcss": "^8.5.3",
-                "typescript": "^4.9.5"
-        }
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "tailwindcss": "^3.4.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.27.1",
+    "@babel/preset-react": "^7.27.1",
+    "autoprefixer": "^10.4.0",
+    "babel-loader": "^10.0.0",
+    "postcss": "^8.4.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
