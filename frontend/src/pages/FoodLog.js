@@ -36,7 +36,7 @@ const LogFood = () => {
     const fetchFoodEntries = async () => {
         setLoading(true);
         try {
-            const response = await fetch('http://localhost:5000/api/foods/food-entries', {
+            const response = await fetch('/api/foods/food-entries', {
                 headers: { 'Authorization': `Bearer ${token}` }
             });
             
@@ -102,7 +102,7 @@ const LogFood = () => {
                 newEntry = addEntryOffline();
             } else {
                 try {
-                    const response = await fetch('http://localhost:5000/api/foods/food-entries', {
+                    const response = await fetch('/api/foods/food-entries', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
@@ -155,7 +155,7 @@ const LogFood = () => {
             
             // Try server delete
             try {
-                const response = await fetch(`http://localhost:5000/api/foods/food-entries/${id}`, {
+                const response = await fetch(`/api/foods/food-entries/${id}`, {
                     method: 'DELETE',
                     headers: { 'Authorization': `Bearer ${token}` }
                 });
