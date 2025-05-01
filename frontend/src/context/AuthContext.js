@@ -20,7 +20,7 @@ export const AuthProvider = ({ children }) => {
 
     const login = async (credentials) => {
         try {
-            const response = await fetch('http://localhost:5000/api/auth/login', {
+            const response = await fetch('/api/foods/food-entries', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -48,7 +48,7 @@ export const AuthProvider = ({ children }) => {
 
     const signup = async (credentials) => {
         try {
-            const response = await fetch('http://localhost:5000/api/auth/signup', {
+            const response = await fetch('/api/foods/food-entries', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -84,7 +84,7 @@ export const AuthProvider = ({ children }) => {
 
     const fetchUserProfile = async (token) => {
         try {
-            const response = await fetch('http://localhost:5000/api/users/profile', {
+            const response = await fetch('/api/foods/food-entries', {
                 headers: {
                     'Authorization': `Bearer ${token}`,
                 },
