@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node backend/server.js",
     "heroku-postbuild": "cd frontend && npm install && npm run build"
   },
   "repository": {
@@ -17,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/Moses225/nutribyte/issues"
   },
-  "homepage": "https://github.com/Moses225/nutribyte#readme"
+  "homepage": "https://github.com/Moses225/nutribyte#readme",
+  "engines": {
+    "node": "18.x",
+    "npm": "9.x"
+  }
 }
+
