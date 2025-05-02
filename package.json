@@ -22,6 +22,7 @@
     "mongoose": "^8.13.2"
   },
   "devDependencies": {
+    "eslint-plugin-react-hooks": "^5.2.0",
     "nodemon": "^3.1.9"
   },
   "repository": {
@@ -37,5 +38,3 @@
   },
   "homepage": "https://github.com/Moses225/nutribyte#readme"
 }
-
-
