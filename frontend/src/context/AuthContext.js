@@ -18,61 +18,64 @@ export const AuthProvider = ({ children }) => {
         }
     }, []);
 
-    const login = async (credentials) => {
-        try {
-            const response = await fetch('/api/foods/food-entries', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(credentials),
-            });
+    // LOGIN
+const login = async (credentials) => {
+    try {
+        const response = await fetch('/api/auth/login', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(credentials),
+        });
 
-            const data = await response.json();
+        const data = await response.json();
 
-            if (response.ok) {
-                localStorage.setItem('token', data.token);
-                setToken(data.token);
-                setIsLoggedIn(true);
-                await fetchUserProfile(data.token); // Await the completion
-                navigate('/dashboard');
-            } else {
-                console.error('Login failed:', data.message);
-                throw new Error(data.message || 'Login failed');
-            }
-        } catch (error) {
-            console.error('Login error:', error);
-            throw error;
+        if (response.ok) {
+            localStorage.setItem('token', data.token);
+            setToken(data.token);
+            setIsLoggedIn(true);
+            await fetchUserProfile(data.token);
+            navigate('/dashboard');
+        } else {
+            console.error('Login failed:', data.message);
+            throw new Error(data.message || 'Login failed');
         }
-    };
+    } catch (error) {
+        console.error('Login error:', error);
+        throw error;
+    }
+};
 
-    const signup = async (credentials) => {
-        try {
-            const response = await fetch('/api/foods/food-entries', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(credentials),
-            });
+// SIGNUP
+const signup = async (credentials) => {
+    try {
+        const response = await fetch('/api/auth/signup', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(credentials),
+        });
 
-            const data = await response.json();
+        const data = await response.json();
 
-            if (response.ok) {
-                localStorage.setItem('token', data.token);
-                setToken(data.token);
-                setIsLoggedIn(true);
-                await fetchUserProfile(data.token); // Await the completion
-                navigate('/dashboard');
-            } else {
-                console.error('Signup failed:', data.message);
-                throw new Error(data.message || 'Signup failed');
-            }
-        } catch (error) {
-            console.error('Signup error:', error);
-            throw error;
+        if (response.ok) {
+            localStorage.setItem('token', data.token);
+            setToken(data.token);
+            setIsLoggedIn(true);
+            await fetchUserProfile(data.token);
+            navigate('/dashboard');
+        } else {
+            console.error('Signup failed:', data.message);
+            throw new Error(data.message || 'Signup failed');
         }
-    };
+    } catch (error) {
+        console.error('Signup error:', error);
+        throw error;
+    }
+};
+
 
     const logout = () => {
         localStorage.removeItem('token');
@@ -82,24 +85,25 @@ export const AuthProvider = ({ children }) => {
         navigate('/');
     };
 
-    const fetchUserProfile = async (token) => {
-        try {
-            const response = await fetch('/api/foods/food-entries', {
-                headers: {
-                    'Authorization': `Bearer ${token}`,
-                },
-            });
+    // FETCH USER PROFILE
+const fetchUserProfile = async (token) => {
+    try {
+        const response = await fetch('/api/users/me', {
+            headers: {
+                'Authorization': `Bearer ${token}`,
+            },
+        });
 
-            if (response.ok) {
-                const userData = await response.json();
-                setUser(userData);
-            } else {
-                console.error('Failed to fetch user profile');
-            }
-        } catch (error) {
-            console.error('Error fetching user profile:', error);
+        if (response.ok) {
+            const userData = await response.json();
+            setUser(userData);
+        } else {
+            console.error('Failed to fetch user profile');
         }
-    };
+    } catch (error) {
+        console.error('Error fetching user profile:', error);
+    }
+};
 
     const contextValue = {
         isLoggedIn,
